@@ -73,6 +73,10 @@ RNA-seq limma+voom:
 ```
 
 :::note
+If you would like to use advanced mixed models please create new column in submission sheet with . <dot> seperated values forming the composite variable.
+
+See the [issue 325](https://github.com/nf-core/differentialabundance/issues/325) for more information.
+:::note2
 If you are using the outputs of the nf-core rnaseq workflow as input here you should provide either the **gene_counts_length_scaled.tsv** or **gene_counts_scaled.tsv** matrices. This follows the [recommendation from the tximport documentation](https://bioconductor.org/packages/devel/bioc/vignettes/tximport/inst/doc/tximport.html#limma-voom):
 
 > "Because limma-voom does not use the offset matrix stored in `y$offset`, we recommend using scaled counts generated from abundances, either 'scaledTPM' or 'lengthScaledTPM'."
