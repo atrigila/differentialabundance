@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - [[#286](https://github.com/nf-core/differentialabundance/pull/286)] - Integration of limma voom for rnaseq data ([@KamilMaliszArdigen](https://github.com/KamilMaliszArdigen), review by [@pinin4fjords](https://github.com/pinin4fjords))
+- [[#325](https://github.com/nf-core/differentialabundance/pull/325)] - Integration of limma voom for rnaseq data with mixed models ([@KamilMaliszArdigen](https://github.com/KamilMaliszArdigen), review by [@pinin4fjords](https://github.com/pinin4fjords))
 
 ### Fixed
 
