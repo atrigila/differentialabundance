@@ -1,13 +1,14 @@
-bump_version: null
 lint:
+  files_exist:
+    - assets/multiqc_config.yml
+  multiqc_config: false
   nextflow_config:
     - config_defaults:
         - params.logo_file
         - params.css_file
         - params.citations_file
         - params.report_file
-nf_core_version: 3.0.2
-org_path: null
+nf_core_version: 3.1.0
 repository_type: pipeline
 template:
   author: Oskar Wacker, Jonathan Manning
@@ -21,4 +22,3 @@ template:
     - fastqc
     - multiqc
   version: 1.6.0dev
-update: null
